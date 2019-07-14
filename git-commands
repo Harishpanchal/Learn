@@ -1,0 +1,33 @@
+Git
+
+1 - Create an account on github
+2 - create a repository
+3 - create folder on local machine and create files in the folder on which you will work.
+4 - open git bash in the same folder or using  command promp reach at the folder.
+
+-------
+
+git cammand
+
+
+git config --global user.email "harishpanchal99@gmail.com"  -  User name
+git config --globla user.name "Harish"   -- User name
+
+1 - git init - to initialise git in the folder
+2 - git status - to check the status that how much files are untracked
+3 - git add filename || -A    file name will add only the named file and by using -A all files will be added to staging area
+4 - git status
+5 - git remote add origin Repository name  (it will create the connection to the git repository)
+6 - git commit -m "message related to the file or files"
+7 - git push origin master - All files will be in the git repository
+
+------------
+
+Create another folder to get clone
+
+1 - Git clone Repository name
+
+
+Now if one more file were created in the initial folder then we have to push that to the git and can be pull in the 2nd folder by the command
+
+- git pull origin master
